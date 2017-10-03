@@ -16023,7 +16023,7 @@ Mesh files no longer used:
 		<property name="Crosshair_min_distance" value="7"/>
 		<property name="Crosshair_max_distance" value="9"/>
 		<property name="Magazine_size" value="6"/>
-		<property name="Magazine_items" value="npc44MagBullet"/>
+		<property name="Magazine_items" value="44MagBulletBandit"/>
 		<property name="Magazine_item_ray_counts" value="1"/>
 		<property name="Magazine_item_ray_spreads" value="0.87"/>
 		<property name="Reload_time" value="4"/>
