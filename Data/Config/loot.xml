@@ -3564,7 +3564,7 @@
 </lootcontainer>
 
 <!-- Lootcontainer 62 Minibike Storage Loot -->
-<lootcontainer id="62" count="0" size="8,14" sound_open="UseActions/open_shopping_basket" open_time="0" sound_close="UseActions/close_shopping_basket" loot_quality_template="baseTemplate">
+<lootcontainer id="62" count="0" size="8,7" sound_open="UseActions/open_shopping_basket" open_time="0" sound_close="UseActions/close_shopping_basket" loot_quality_template="baseTemplate">
 </lootcontainer>
 
 <!-- Lootcontainer 63 Mountain Man Loot -->
