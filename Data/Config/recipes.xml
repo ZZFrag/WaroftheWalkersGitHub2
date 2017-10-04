@@ -1930,11 +1930,11 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 </recipe>
 
 <recipe name="oilShale" count="10" craft_area="oilPump" craft_exp_gain="25" craft_time="15">
-	<ingredient name="wood" count="50"/>
+	<ingredient name="wood" count="100"/>
 </recipe>
 
 <recipe name="oilShale" count="10" craft_area="oilPump" craft_exp_gain="25" craft_time="15">
-	<ingredient name="coal" count="10"/>
+	<ingredient name="coal" count="20"/>
 </recipe>
 
 <recipe name="gasCan" count="100" craft_area="chemistryStation">
