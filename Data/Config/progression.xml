@@ -14,8 +14,8 @@
 	max_level="100"
 	exp_to_level="250"
 	experience_multiplier="1.03"
-	skill_point_cost_multiplier="1.1"
-	skill_point_cost_per_level="1" > <!-- these are defaults and can be used to modify individual skills as needed -->
+	skill_point_cost_multiplier="0"
+	skill_point_cost_per_level="2" > <!-- these are defaults and can be used to modify individual skills as needed -->
 	<!-- if skill_point_cost_multiplier > 0 then PointCostPerLevel = int(SkillPointCostMultiplier ^ currentTier) * SkillPointCostPerLevel -->
 
 	<!-- Player Skills -->
