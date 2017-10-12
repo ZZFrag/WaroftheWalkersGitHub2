@@ -1625,7 +1625,7 @@
 	<item group="rareBooks" loot_prob_template="rareBookTemplate"/>
 </lootgroup>
 
-<lootgroup name="ToolandBuildingBooks" count="1,3">
+<lootgroup name="ToolandBuildingBooks" count="1,2">
 	<item name="huntingKnifeBook"/>
 	<item name="wrenchSchematic"/>
 	<item name="clawHammerSchematic"/>
@@ -1637,7 +1637,7 @@
 	<item name="SteelMacheteSchematic" prob="0.25"/>
 </lootgroup>
 
-<lootgroup name="WeaponsandAmmoBooks" count="1,3">
+<lootgroup name="WeaponsandAmmoBooks" count="1,2">
 	<item name="crossbowSchematic"/>
 	<item name="pistolBook"/>
 	<item name="pumpShotgunSchematic"/>
@@ -1662,7 +1662,7 @@
 	<item name="762mmHollowPointBulletSchematic" prob="0.15"/>
 </lootgroup>
 
-<lootgroup name="ClothingandArmorBooks" count="1,3">
+<lootgroup name="ClothingandArmorBooks" count="1,2">
 	<item name="leatherBootsSchematic" />
 	<item name="leatherHoodSchematic"/>
 	<item name="leatherJacketSchematic"/>
@@ -1691,7 +1691,7 @@
 	<item name="ironGlovesSchematic" prob="0.25"/>
 </lootgroup>
 
-<lootgroup name="FoodandDrinkBooks" count="1,3">
+<lootgroup name="FoodandDrinkBooks" count="1,2">
 	<item name="BreadRecipe"/>
 	<!-- <item name="MeatPieRecipe"/> -->
 	<item name="RoastedMeatPieRecipe"/>
@@ -1701,7 +1701,7 @@
 	<item name="FishStewRecipe" prob="0.01"/>
 </lootgroup>
 
-<lootgroup name="AutomotiveBooks" count="1,2">
+<lootgroup name="AutomotiveBooks" count="1">
 	<item name="augerSchematic"/>
 	<item name="chainsawSchematic"/>
 	<item name="minibikesForDumbshits"/>
@@ -2907,7 +2907,7 @@
 </lootgroup>
 
 <lootgroup name="SchematicDrop" count="2,3">
-	<item group="books" count="1,2"/>
+	<item group="books" count="1"/>
 	<item group="QuestChallenge" count="1" prob="0.035" />
 	<item group="QuestChain" count="1" prob="0.01" />
 	<item group="treasureMaps" count="1" prob="0.035" />
@@ -3283,7 +3283,7 @@
 	
 <!-- Lootcontainer 32 Book Supply Crate -->
 <lootcontainer id="32" count="1,2" size="3,3" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="baseTemplate">
-   	<item group="books" count="1,2" />
+   	<item group="books" count="1" />
 	<item group="QuestChallenge" count="1" prob="0.035" />
 	<item group="treasureMaps" count="1" prob="0.035" /> <!-- total 2.2% for a quest thing -->
 </lootcontainer>
@@ -3566,7 +3566,7 @@
 </lootcontainer>
 
 <!-- Lootcontainer 62 Minibike Storage Loot -->
-<lootcontainer id="62" count="0" size="8,14" sound_open="UseActions/open_shopping_basket" open_time="0" sound_close="UseActions/close_shopping_basket" loot_quality_template="baseTemplate">
+<lootcontainer id="62" count="0" size="8,7" sound_open="UseActions/open_shopping_basket" open_time="0" sound_close="UseActions/close_shopping_basket" loot_quality_template="baseTemplate">
 </lootcontainer>
 
 <!-- Lootcontainer 63 Mountain Man Loot -->
@@ -3964,7 +3964,7 @@
 	<item group="weaponsBasicGuns+ammo" />
 	<item name="compoundBow" prob="0.1" />
 	<item group="rareOres" count="2,5" />
-	<item group="rareBooks" count="1,2" prob="0.5" />
+	<item group="rareBooks" count="1" prob="0.5" />
 	<item group="banditArmor" count="1,2" prob="0.5" />
 	<item group="heavyArmor" count="1,2" prob="0.5" />
 	<item group="militaryArmor" count="1,2" prob="0.5" />
@@ -4045,7 +4045,7 @@
 	
 <!-- Lootcontainer 107 Supply Crate Books Loot -->
 <lootcontainer id="107" count="1,2" size="3,3" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="treasureTemplate">
-   	<item group="books" count="1,2" />
+   	<item group="books" count="1" />
 	<item group="QuestChallenge" count="1" prob="0.035" />
 	<item group="treasureMaps" count="1" prob="0.035" /> <!-- total 2.2% for a quest thing -->
 </lootcontainer>

@@ -648,7 +648,7 @@
 
 		<!-- The following section handles: The minibike INVENTORY and CELL SIZE -->
 
-		<grid depth="2" name="inventory" rows="14" cols="8" pos="3,-85" cell_width="50" cell_height="50" repeat_content="true" controller="VehicleContainer">
+		<grid depth="2" name="inventory" rows="7" cols="8" pos="3,-85" cell_width="50" cell_height="50" repeat_content="true" controller="VehicleContainer">
 			<SMX_50_item_stack name="0" />
 		</grid>
 
