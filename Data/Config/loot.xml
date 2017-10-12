@@ -1625,7 +1625,7 @@
 	<item group="rareBooks" loot_prob_template="rareBookTemplate"/>
 </lootgroup>
 
-<lootgroup name="ToolandBuildingBooks" count="1,2">
+<lootgroup name="ToolandBuildingBooks" count="1,3">
 	<item name="huntingKnifeBook"/>
 	<item name="wrenchSchematic"/>
 	<item name="clawHammerSchematic"/>
@@ -1637,7 +1637,7 @@
 	<item name="SteelMacheteSchematic" prob="0.25"/>
 </lootgroup>
 
-<lootgroup name="WeaponsandAmmoBooks" count="1,2">
+<lootgroup name="WeaponsandAmmoBooks" count="1,3">
 	<item name="crossbowSchematic"/>
 	<item name="pistolBook"/>
 	<item name="pumpShotgunSchematic"/>
@@ -1662,7 +1662,7 @@
 	<item name="762mmHollowPointBulletSchematic" prob="0.15"/>
 </lootgroup>
 
-<lootgroup name="ClothingandArmorBooks" count="1,2">
+<lootgroup name="ClothingandArmorBooks" count="1,3">
 	<item name="leatherBootsSchematic" />
 	<item name="leatherHoodSchematic"/>
 	<item name="leatherJacketSchematic"/>
@@ -1691,7 +1691,7 @@
 	<item name="ironGlovesSchematic" prob="0.25"/>
 </lootgroup>
 
-<lootgroup name="FoodandDrinkBooks" count="1,2">
+<lootgroup name="FoodandDrinkBooks" count="1,3">
 	<item name="BreadRecipe"/>
 	<!-- <item name="MeatPieRecipe"/> -->
 	<item name="RoastedMeatPieRecipe"/>
@@ -1701,7 +1701,7 @@
 	<item name="FishStewRecipe" prob="0.01"/>
 </lootgroup>
 
-<lootgroup name="AutomotiveBooks" count="1">
+<lootgroup name="AutomotiveBooks" count="1,2">
 	<item name="augerSchematic"/>
 	<item name="chainsawSchematic"/>
 	<item name="minibikesForDumbshits"/>
@@ -2617,7 +2617,7 @@
 </lootgroup>
 
 <lootgroup name="rabbitTrap" count="all">
-	<item name="RabbitRaw" count="3"/>
+	<item name="rawRedMeat" count="1,2"/>
 	<item name="animalHide" count="2"/>
 </lootgroup>
 
@@ -2907,7 +2907,7 @@
 </lootgroup>
 
 <lootgroup name="SchematicDrop" count="2,3">
-	<item group="books" count="1"/>
+	<item group="books" count="1,2"/>
 	<item group="QuestChallenge" count="1" prob="0.035" />
 	<item group="QuestChain" count="1" prob="0.01" />
 	<item group="treasureMaps" count="1" prob="0.035" />
@@ -3105,6 +3105,7 @@
 	<item name="flashlight02" prob="0.15" />
 	<item group="QuestChain" count="1" prob="0.01" />
 	<item group="QuestChallenge" count="1" prob="0.05" />
+	<item name="ClassPaperProtection" count="1" prob="0.025" />
 </lootcontainer>
 
 <!-- Lootcontainer 7 Medicine Cabinet Loot -->
@@ -3196,6 +3197,7 @@
 <lootcontainer id="19" count="0,2" size="7,4" sound_open="UseActions/open_vehicle" sound_close="UseActions/close_vehicle" open_time="4" loot_quality_template="baseTemplate">
 	<item group="automotive+tools+junk"/>
 	<item name="miningHelmet" prob="0.035"/>
+	<item name="ClassPaperTradesman" prob="0.04"/>
 </lootcontainer>
 
 <!-- Lootcontainer 20 Free (Old AC Units) -->
@@ -3281,7 +3283,7 @@
 	
 <!-- Lootcontainer 32 Book Supply Crate -->
 <lootcontainer id="32" count="1,2" size="3,3" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="baseTemplate">
-   	<item group="books" count="1" />
+   	<item group="books" count="1,2" />
 	<item group="QuestChallenge" count="1" prob="0.035" />
 	<item group="treasureMaps" count="1" prob="0.035" /> <!-- total 2.2% for a quest thing -->
 </lootcontainer>
@@ -3292,7 +3294,7 @@
 </lootcontainer>
 
 <!-- Lootcontainer 34 Supply Crate General -->
-<lootcontainer id="34" count="1" size="8,4" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="baseTemplate">
+<lootcontainer id="34" count="1" size="8,4" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="baseTemplate">
 	<item group="BuildingDrop" count="1" prob="0.4" />
 	<item group="WeaponsDrop" count="1" prob="0.3" />
 	<item group="SurvivalDrop" count="1" prob="0.35" />
@@ -3464,14 +3466,14 @@
 	<item name="scrapPlastics" count="1,6" prob="0.15" />
 	<item group="WeaponParts" prob="0.5" />
 	<item group="WeaponAttachments" prob="0.4" />
-	<item name="ClassPaperMarksman" prob="0.15" />
+	<item name="ClassPaperMarksman" prob="0.075" />
 </lootcontainer>
 
 <!-- Lootcontainer 51 Pop n Pills Pillcase Loot -->
 <lootcontainer id="51" count="0,2" size="5,4" sound_open="UseActions/open_pill_case" sound_close="UseActions/close_pill_case" loot_quality_template="baseTemplate">
 	<item group="medicine" />
 	<item name="scrapPlastics" count="1,2" prob="0.15" />
-	<item name="ClassPaperSurvivalist" prob="0.045" />
+	<item name="ClassPaperSurvivalist" prob="0.0375" />
 </lootcontainer>
 
 <!-- Lootcontainer 52 Beverage Cooler Loot -->
@@ -3542,7 +3544,7 @@
 	<item name="shamSandwich" count="1,3" />
 	<item name="Yeast" count="2,6" prob="0.3" />
 	<item name="scrapPlastics" count="1,8" prob="0.25" />
-	<item name="ClassPaperSurvivalist" prob="0.12" />
+	<item name="ClassPaperSurvivalist" prob="0.075" />
 </lootcontainer>
 
 <!-- Lootcontainer 60 Bookstore Bookcase Loot -->
@@ -3564,7 +3566,7 @@
 </lootcontainer>
 
 <!-- Lootcontainer 62 Minibike Storage Loot -->
-<lootcontainer id="62" count="0" size="8,7" sound_open="UseActions/open_shopping_basket" open_time="0" sound_close="UseActions/close_shopping_basket" loot_quality_template="baseTemplate">
+<lootcontainer id="62" count="0" size="8,14" sound_open="UseActions/open_shopping_basket" open_time="0" sound_close="UseActions/close_shopping_basket" loot_quality_template="baseTemplate">
 </lootcontainer>
 
 <!-- Lootcontainer 63 Mountain Man Loot -->
@@ -3962,7 +3964,7 @@
 	<item group="weaponsBasicGuns+ammo" />
 	<item name="compoundBow" prob="0.1" />
 	<item group="rareOres" count="2,5" />
-	<item group="rareBooks" count="1" prob="0.5" />
+	<item group="rareBooks" count="1,2" prob="0.5" />
 	<item group="banditArmor" count="1,2" prob="0.5" />
 	<item group="heavyArmor" count="1,2" prob="0.5" />
 	<item group="militaryArmor" count="1,2" prob="0.5" />
@@ -4043,7 +4045,7 @@
 	
 <!-- Lootcontainer 107 Supply Crate Books Loot -->
 <lootcontainer id="107" count="1,2" size="3,3" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="treasureTemplate">
-   	<item group="books" count="1" />
+   	<item group="books" count="1,2" />
 	<item group="QuestChallenge" count="1" prob="0.035" />
 	<item group="treasureMaps" count="1" prob="0.035" /> <!-- total 2.2% for a quest thing -->
 </lootcontainer>
@@ -4053,7 +4055,7 @@
    	<item group="ammo" count="1,2" />
 </lootcontainer>
 
-<!-- Lootcontainer 109 Supply Crate General Air Drop Supply Loot -->
+<!-- Lootcontainer 109 Supply Crate General Loot -->
 <lootcontainer id="109" count="1,4" size="10,4" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="treasureTemplate">
    	<item group="airdropMedicine" count="1" prob="0.075" />
 	<item group="Armor" prob="0.2" />
@@ -4231,10 +4233,22 @@
 
 <!-- Lootcontainer 140 Survivor NPC Loot On Death -->
 <lootcontainer id="140" count="1,2" size="5,3" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" loot_quality_template="baseTemplate">
-	<item name="clubWood" />
-	<item group="medicine" count="1" prob="0.5"/>
-	<item group="beverages" count="1" prob="0.5"/>
-	<item group="weaponsPistol+ammo" count="1" prob="0.3"/>
+	<item group="weaponsMelee" count="1" prob="0.5" />
+	<item group="building_materials" count="1,2" prob="0.5" />
+	<item group="workingStiffs" count="1" prob="0.4" />
+	<item group="garbage" count="1" prob="0.45" />
+	<item group="medicine" count="1" prob="0.5" />
+	<item group="beverages" count="1" prob="0.5" />
+	<item group="weaponsPistol+ammo" count="1" prob="0.3" />
+</lootcontainer>
+
+<!-- Lootcontainer 141 Bandit NPC Loot On Death -->
+<lootcontainer id="141" count="1,2" size="5,3" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" loot_quality_template="baseTemplate">
+	<item group="banditsGeneral" />
+	<item group="weaponsMelee" count="1" prob="0.5" />
+	<item group="WallDeskSafeWeapons" count="1" prob="0.35" />
+	<item group="GunSafeWeapons" count="1" prob="0.3" />
+	<item name="ClassPaperFighter" prob="0.095" />
 </lootcontainer>
 
 </lootcontainers>
